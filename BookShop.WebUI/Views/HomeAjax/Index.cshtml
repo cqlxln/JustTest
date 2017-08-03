@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<script type="text/javascript">
+    function test() {
+        $.ajax({
+            url: '@Url.Action("GetTestData")',
+            type: "POST",
+            success: function (result) {
+                $("#lblMsg").text(result.msg);
+            }
+        });
+    }
+</script>
+
+<h2 id="lblMsg"></h2>
+<input type="button" value="测试" onclick="test();" />

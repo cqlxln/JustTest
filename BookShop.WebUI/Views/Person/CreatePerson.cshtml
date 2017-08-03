@@ -1,0 +1,11 @@
+﻿@model BookShop.WebUI.Models.Person
+
+@{
+    ViewBag.Title = "CreatePerson";
+    Layout = null;
+}
+
+<h2>CreatePerson</h2>
+
+@Html.Editor("PersonId")
+@Html.EditorFor(m => m.Role)

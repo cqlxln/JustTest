@@ -1,0 +1,21 @@
+﻿@model WebTest.Models.PersonNew
+@{
+    ViewBag.Title = "CreatePerson";
+}
+
+<h2>DisplayAddress</h2>
+
+@using (Html.BeginForm("DisplayAddress", "PersonNew"))
+{
+    <div>@Html.LabelFor(m => m.PersonId)@Html.EditorFor(m => m.PersonId)</div>
+    <div>
+        @Html.LabelFor(m => m.HomeAddress.City)
+        @Html.EditorFor(m => m.HomeAddress.City)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.HomeAddress.Country)
+        @Html.EditorFor(m => m.HomeAddress.Country)
+    </div>
+    <button type="submit">Submit</button>
+}
+

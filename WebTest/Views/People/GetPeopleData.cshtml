@@ -1,0 +1,11 @@
+﻿@using WebTest.Models
+@model IEnumerable<Person>
+
+@foreach (Person p in Model)
+{
+    <tr>
+        <td>@p.ID</td>
+        <td>@p.Name</td>
+        <td>@p.Role</td>
+    </tr>
+}

@@ -1,0 +1,13 @@
+D:\系统框架收集\1-供开发使用的框架\权限系统(基于HUI)-开发用\Study\BookShop\BookShop.Domain\bin\Debug\BookShop.Domain.dll.config
+D:\系统框架收集\1-供开发使用的框架\权限系统(基于HUI)-开发用\Study\BookShop\BookShop.Domain\bin\Debug\BookShop.Domain.dll
+D:\系统框架收集\1-供开发使用的框架\权限系统(基于HUI)-开发用\Study\BookShop\BookShop.Domain\bin\Debug\BookShop.Domain.pdb
+D:\系统框架收集\1-供开发使用的框架\权限系统(基于HUI)-开发用\Study\BookShop\BookShop.Domain\bin\Debug\EntityFramework.dll
+D:\系统框架收集\1-供开发使用的框架\权限系统(基于HUI)-开发用\Study\BookShop\BookShop.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\系统框架收集\1-供开发使用的框架\权限系统(基于HUI)-开发用\Study\BookShop\BookShop.Domain\bin\Debug\Ninject.dll
+D:\系统框架收集\1-供开发使用的框架\权限系统(基于HUI)-开发用\Study\BookShop\BookShop.Domain\bin\Debug\EntityFramework.xml
+D:\系统框架收集\1-供开发使用的框架\权限系统(基于HUI)-开发用\Study\BookShop\BookShop.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\系统框架收集\1-供开发使用的框架\权限系统(基于HUI)-开发用\Study\BookShop\BookShop.Domain\bin\Debug\Ninject.xml
+D:\系统框架收集\1-供开发使用的框架\权限系统(基于HUI)-开发用\Study\BookShop\BookShop.Domain\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\系统框架收集\1-供开发使用的框架\权限系统(基于HUI)-开发用\Study\BookShop\BookShop.Domain\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\系统框架收集\1-供开发使用的框架\权限系统(基于HUI)-开发用\Study\BookShop\BookShop.Domain\obj\Debug\BookShop.Domain.dll
+D:\系统框架收集\1-供开发使用的框架\权限系统(基于HUI)-开发用\Study\BookShop\BookShop.Domain\obj\Debug\BookShop.Domain.pdb

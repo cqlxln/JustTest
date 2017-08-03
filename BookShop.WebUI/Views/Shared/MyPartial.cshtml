@@ -1,0 +1,14 @@
+﻿@Model IEnumerable<string>
+
+
+<div>
+    This is the message from the partial view.
+    @Html.ActionLink("This is a link to the Index action", "Index")
+    <ul>
+        @foreach (string str in Model)
+        {
+            <li>@str</li>
+        }
+    </ul>
+
+</div> 

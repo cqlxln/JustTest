@@ -1,0 +1,26 @@
+﻿@model string[]
+@{
+    ViewBag.Title = "Name";
+}
+
+<h2>Name</h2>
+@if (Model.Length == 0)
+{
+    using (Html.BeginForm())
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            <div><label>@(i + 1):</label>@Html.TextBox("names")</div>
+        }
+        <button type="submit">Submit</button>
+    }
+
+}
+else
+{
+    foreach (string str in Model)
+    {
+        <p>@str</p>
+    }
+    @Html.ActionLink("Back","Name")
+}

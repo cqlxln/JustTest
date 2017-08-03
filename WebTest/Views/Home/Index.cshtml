@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<script type="text/javascript">
+    function test() {
+        $.ajax({
+            url: '@Url.Action("GetTestData")',
+            type: "GET",
+            success: function (result) {
+                $("#lblMsg").text(result.msg);
+            }
+        });
+    }
+</script>
+
+
+<h2>Change the last segment of the Url to request for one fruit. </h2>
+<h4>You have requested for a(an): @Model</h4>
+
+<h2 id="lblMsg"></h2>
+<input type="button" value="测试" onclick="test();" />

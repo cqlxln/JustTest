@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "List";
+    ViewBag.DataValue = "This is the value from ViewBag.";
+    Layout = null;
+}
+<h3>This is the /Views/Home/List.cshtml View</h3>
+@Html.Partial("MyPartial",new[] { "apple","apple2","apple3"})
+
+@Html.Action("Time")
+@Html.TextBox("DataValue") 
